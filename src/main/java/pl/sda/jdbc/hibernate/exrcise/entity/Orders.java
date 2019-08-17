@@ -25,9 +25,10 @@ public class Orders {
     public Orders() {
     }
 
-    public Orders(String orderDate, String orderLocation) {
+    public Orders(String orderDate, String orderLocation, Customer customer) {
         this.orderDate = orderDate;
         this.orderLocation = orderLocation;
+        this.customer = customer;
     }
 
     public int getId() {
